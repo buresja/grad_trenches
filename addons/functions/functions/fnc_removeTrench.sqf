@@ -132,6 +132,3 @@ private _fnc_condition = {
      _trench setVariable [QGVAR(diggerCount), 0, true];
   };
 },0.1,[_trench, _unit, _removeTime, _trenchId, _vecDirAndUp]] call CBA_fnc_addPerFrameHandler;
-
-// Play animation
-[_unit, "AinvPknlMstpSnonWnonDnon_medic4"] call EFUNC(common,doAnimation);

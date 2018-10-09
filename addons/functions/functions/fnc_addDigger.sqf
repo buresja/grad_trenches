@@ -72,5 +72,3 @@ private _fnc_condition = {
 };
 
 [[_unit, _trench, _type, _handle], _fnc_onFinish, _fnc_onFailure, localize "STR_ace_trenches_DiggingTrench", _fnc_condition] call FUNC(progressBar);
-
-[_unit, "AinvPknlMstpSnonWnonDnon_medic4"] call ace_common_fnc_doAnimation;
