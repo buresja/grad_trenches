@@ -3,29 +3,29 @@ class CBA_Extended_EventHandlers;
 class CfgVehicles {
     class BagFence_base_F;
     class GRAD_envelope_short: BagFence_base_F {
-        model = QPATHTOF(data\trench_short.p3d);
+        model = QPATHTOF(data\models\trench_short.p3d);
         hiddenSelections[] = {"velka"};
     };
     class ACE_envelope_small: BagFence_base_F {
-        model = QPATHTOF(data\trench_small.p3d);
+        model = QPATHTOF(data\models\trench_small.p3d);
         hiddenSelections[] = {"velka"};
     };
     class ACE_envelope_big: BagFence_base_F {
-        model = QPATHTOF(data\trench_big.p3d);
+        model = QPATHTOF(data\models\trench_big.p3d);
         hiddenSelections[] = {"velka"};
     };
     class GRAD_envelope_gigant: BagFence_base_F {
-        model = QPATHTOF(data\trench_gigant.p3d);
+        model = QPATHTOF(data\models\trench_gigant.p3d);
         hiddenSelections[] = {"velka"};
     };
     class GRAD_envelope_vehicle: BagFence_base_F {
-        model = QPATHTOF(data\trench_vehicle.p3d);
+        model = QPATHTOF(data\models\trench_vehicle.p3d);
         hiddenSelections[] = {"velka"};
     };
 
     class GRAD_envelope_short_noGeo: BagFence_base_F {
         scope = 1;
-        model = QPATHTOF(data\trench_short_nogeo.p3d);
+        model = QPATHTOF(data\models\trench_short_nogeo.p3d);
         hiddenSelections[] = {"velka"};
     };
     class ACE_envelope_small_noGeo: BagFence_base_F {
@@ -33,17 +33,17 @@ class CfgVehicles {
         hiddenSelections[] = {"velka"};
     };
     class ACE_envelope_big_noGeo: BagFence_base_F {
-        model = QPATHTOF(data\trench_big_nogeo.p3d);
+        model = QPATHTOF(data\models\trench_big_nogeo.p3d);
         hiddenSelections[] = {"velka"};
     };
     class GRAD_envelope_gigant_noGeo: BagFence_base_F {
         scope = 1;
-        model = QPATHTOF(data\trench_gigant_nogeo.p3d);
+        model = QPATHTOF(data\models\trench_gigant_nogeo.p3d);
         hiddenSelections[] = {"velka"};
     };
     class GRAD_envelope_vehicle_noGeo: BagFence_base_F {
         scope = 1;
-        model = QPATHTOF(data\trench_vehicle_nogeo.p3d);
+        model = QPATHTOF(data\models\trench_vehicle_nogeo.p3d);
         hiddenSelections[] = {"velka"};
     };
 };

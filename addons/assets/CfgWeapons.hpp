@@ -2,8 +2,8 @@ class CfgWeapons {
     class ACE_ItemCore;
 
     class ACE_EntrenchingTool: ACE_ItemCore {
-        model = QPATHTOF(data\entrenching_tool.p3d);
+        model = QPATHTOF(data\models\entrenching_tool.p3d);
         hiddenSelections[] = {"Camo"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\entrenching_tool.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\textures\entrenching_tool.paa)};
     };
 };

@@ -84,6 +84,9 @@ This project is licensed under **GPLv2**.
 We kindly request to not upload this mod to Armaholic or other mirrors for Arma 3 mods.  
 Plus, we ask you to not create mirrors in Steam Workshop.
 
+## Contributers
+Sound by Alastair Cameron from Freesound.org
+
 ## Bugs and Contributions
 Contributions and bug reports are well appreciated. Feel free to fork this project or to create issues.
 #### Bugreports
