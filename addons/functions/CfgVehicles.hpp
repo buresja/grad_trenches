@@ -131,7 +131,6 @@ class CfgVehicles {
         scope = 2;
         ace_trenches_diggingDuration = QGVAR(gigantEnvelopeDigTime);
         ace_trenches_removalDuration = 30;
-        ace_trenches_noGeoClass = QUOTE(GRAD_envelope_gigant_noGeo);
         ace_trenches_placementData[] = {8,1.1,0.20};
         ace_trenches_grassCuttingPoints[] = {{-1.5,-1,0},{1.5,-1,0}};
 
@@ -153,7 +152,6 @@ class CfgVehicles {
         scope = 2;
         ace_trenches_diggingDuration = QGVAR(vehicleEnvelopeDigTime);
         ace_trenches_removalDuration = 60;
-        ace_trenches_noGeoClass = QUOTE(GRAD_envelope_vehicle_noGeo);
         ace_trenches_placementData[] = {10,1.1,0.20};
         ace_trenches_grassCuttingPoints[] = {{-1.5,-1,0},{1.5,-1,0}};
 
@@ -171,7 +169,6 @@ class CfgVehicles {
         scope = 2;
         ace_trenches_diggingDuration = QGVAR(shortEnvelopeDigTime);
         ace_trenches_removalDuration = 10;
-        ace_trenches_noGeoClass = QUOTE(GRAD_envelope_short_noGeo);
         ace_trenches_placementData[] = {10,1.1,0.20};
         ace_trenches_grassCuttingPoints[] = {{-1.5,-1,0},{1.5,-1,0}};
 
