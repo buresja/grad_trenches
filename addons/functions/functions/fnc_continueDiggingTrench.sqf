@@ -77,7 +77,7 @@ private _fnc_condition = {
    if (_unit getVariable ["ace_trenches_isDiggingId", -1] != ace_trenches_trenchId) exitWith {false};
    if !(_trench getVariable ["ace_trenches_digging", false]) exitWith {false};
    if (_trench getVariable [QGVAR(diggerCount), 0] <= 0) exitWith {false};
-   if (GVAR(stopBuildingAtFatigueMax) && (ace_advanced_fatigue_anReserve <= 0))  exitWith {false};
+   if (GVAR(stopBuildingAtFatigueMax) && (ace_advanced_fatigue_anReserve <= 0)) exitWith {false};
    true
 };
 
@@ -93,6 +93,8 @@ if(_actualProgress == 0) then {
         deleteVehicle _trenchGrassCutter;
     } foreach getArray (configFile >> "CfgVehicles" >> (typeOf _trench) >> "ace_trenches_grassCuttingPoints");
 };
+
+[_unit, _trench] call FUNC(startDiggingAnim);
 
 [{
   params ["_args", "_handle"];

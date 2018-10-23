@@ -11,6 +11,7 @@ PREP(initTrench3DEN);
 PREP(placeCamouflage);
 PREP(placeConfirm);
 PREP(placeTrench);
+PREP(playDigSound);
 PREP(progressBar);
 PREP(removeCamouflage);
 PREP(removeTrench);
