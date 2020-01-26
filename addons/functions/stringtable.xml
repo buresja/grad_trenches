@@ -253,17 +253,5 @@
             <Russian>При наступлении полной усталости откапывание окопа прекращается</Russian>
             <French>Si activé, la pelle cessera de creuser si sa fatigue atteint 0.</French>
         </Key>
-        <Key ID="STR_GRAD_Trenches_functions_enableAutomaticFilePath_displayName">
-            <English>Enable automatic file path for textures</English>
-            <German>Aktiviert automatische textur ausfüllung</German>
-           <Russian>Включить автоматический путь к текстурам</Russian>
-           <French>Activer le chemin de fichier automatique pour les textures</French>
-        </Key>
-        <Key ID="STR_GRAD_Trenches_functions_enableAutomaticFilePath_tooltip">
-            <English>If enabled the mod will try to fill in an automatic path and prefix for the texture files. (WARNING!!!) This can cause errors!</English>
-            <German>Wenn es aktiviert ist, versucht die Mod automatisch einen Pfad und preFix für die Map zu finden. (WARNUNG!!!) Kann zu Fehlern führen!</German>
-            <Russian>При активации мод будет пытаться автоматически ввести путь и префикс для текстур. (ВНИМАНИЕ !!!) Это может привести к ошибкам! </Russian>
-            <French>Si activé, le mod essaiera de renseigner un chemin et un préfixe automatiques pour les fichiers de texture. (ATTENTION !!!) Cela peut provoquer des erreurs!</French>
-        </Key>
     </Package>
 </Project>

@@ -1,6 +1,8 @@
 class CfgWorldsTextures {
     class Default {
         surfaceTextureBasePath = "a3\map_data\";
+        surfaceMaterialBasePath = "a3\plants_f\clutter\data\";
+        prefix = "c_";
         suffix = "co.paa";
     };
 

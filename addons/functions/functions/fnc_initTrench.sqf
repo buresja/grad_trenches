@@ -24,6 +24,11 @@ if (local _object) then {
     // Has to be spawned to ensure MP compatibility
     _object spawn {
         private _texture = [_this] call FUNC(getSurfaceTexturePath);
+        private _material = [_this, _texture] call FUNC(getSurfaceMaterialPath);
+
         _this setObjectTextureGlobal [0, _texture];
+        if !(_material isEqualTo "") then {
+            _this setObjectMaterialGlobal [0, _material];
+        };
     };
 };

@@ -42,6 +42,12 @@ deleteVehicle ace_trenches_trench;
 private _trench = createVehicle [_trenchClass, _pos, [], 0, "CAN_COLLIDE"];
 
 _trench setObjectTextureGlobal [0,[_trench] call FUNC(getSurfaceTexturePath)];
+
+private _material = [_trench] call FUNC(getSurfaceMaterialPath);
+if !(_material isEqualTo "") then {
+    _trench setObjectMaterialGlobal [0, _material];
+};
+
 _trench setPosWorld _pos;
 
 private _boundingBox = 0 boundingBoxReal _trench;
